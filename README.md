@@ -1,5 +1,3 @@
-- Run "npm i" in each folder "BackEnd"/"FrontEnd" to install all libraries  
-
 Admin:  
 email: thanhcongzxc456@gmail.com
 password: 1234567890  
@@ -9,6 +7,9 @@ email: c3tcdrl@gmail.com
 password: 0987654321
 
 Run docker:  
-Step 1: Open docker desktop  
-Step 2: Run "docker-compose up --build" to build container  
-Step 3: If you want to stop, use "docker compose down"
+How to run:
+Step 1: Open "docker desktop"
+Step 2: run "docker-compose up --build" in root folder (source folder)
+Step 3: Go to "http://localhost:5000" and enjoy the app
+Step 4: If you want to stop the application, use "Ctrl + C"
+Step 5: If you want to remove all containers, use "docker-compose down"
