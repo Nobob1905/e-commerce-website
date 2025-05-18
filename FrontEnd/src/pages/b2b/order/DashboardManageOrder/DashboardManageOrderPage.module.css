@@ -1,0 +1,253 @@
+.manage-user__table-title{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.manage-user__table-title p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.manage-user__table-page{
+    color: #000000;
+}
+
+.user-table{
+    padding: 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*manage user list*/
+.manage-user__table-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.manage-user__table-item{
+    padding: 5px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.manage-user__table-item p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: var(--para-text);
+}
+
+.manage-user__table-item i{
+    color: var(--para-text);
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.manage-user__table-item:hover p, .manage-user__table-item:hover i{
+    color: var(--btn-primary);
+}
+
+.manage-user__table-item--choose{
+    box-shadow: 2px 2px 10px rgba(var(--btn-primary-rgb), 0.5);
+    background-color: var(--btn-primary);
+}
+
+.manage-user__table-item--choose:hover p, .manage-user__table-item--choose:hover i{
+    color: #ffffff;
+}
+
+.manage-user__table-item--choose p, .manage-user__table-item--choose i{
+    color: #ffffff;
+}
+
+th{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.user-table__text{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.user-table__action{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-table__action i{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user-table__action-trash{
+    color: var(--btn-primary);
+}
+
+.user-table__action-edit{
+    margin-right: 20px;
+    color: var(--primary-color);
+}
+
+.table-manage{
+    overflow: scroll;
+}
+
+.table-manage::-webkit-scrollbar{
+    display: none;
+}
+
+/*Modal*/
+.edit-modal__label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: var(--para-text);
+}
+
+.edit-modal__inp{
+    font-size: 12px;
+}
+
+.edit-modal__inp:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid var(--btn-primary);
+}
+
+.user-table__btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+
+.user-table__btn button{
+    background-color: var(--btn-primary);
+    color: #ffffff;
+}
+
+.user-table__btn button:hover{
+    color: var(--btn-primary);
+    background-color: #ffffff;
+    border: 1px solid var(--btn-primary);
+}
+
+/*user time*/
+.user-time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.user-time__date{
+    display: flex;
+}
+
+.user-time__date label{
+    font-size: 14px;
+    color: var(--para-text);
+}
+
+.user-time__date input{
+    font-size: 14px;
+}
+
+.user-time__date input:focus{
+    box-shadow: none;
+    border: 1px solid var(--btn-primary);
+}
+
+.user-time__btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.user-time__btn button{
+    background-color: var(--btn-primary);
+    color: #ffffff;
+}
+.user-time__btn button:hover{
+    background-color: #ffffff;
+    color: var(--btn-primary);
+    border: 1px solid var(--btn-primary);
+}
+
+
+/*order item*/
+.order-tracking__details{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.order-tracking__details-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.order-tracking__details-line{
+    height: 4px;
+    width: 40%;
+    background-color: var(--border-slick);
+}
+
+.order-tracking__details-text{
+    width: 20%;
+    padding: 12px 0;
+    background-color: #ffffff;
+    border: 2px solid var(--border-slick);
+    border-radius: 50%;
+}
+
+.order-tracking__details-text p{
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.order-tracking__details-text--pass{
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+.order-tracking__details-text--pass p{
+    color: #ffffff;
+}
+
+.order-tracking__details-line--pass{
+    background-color: var(--primary-color);
+}
+
+.order-tracking__details-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.order-tracking__details-btn button{
+    padding: 5px 10px;
+    background-color: var(--btn-primary);
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    border: 1px solid var(--btn-primary);
+    transition: background-color ease-in-out .3s;
+}
+
+.order-tracking__details-btn button:hover{
+    background-color: #ffffff;
+    color: var(--btn-primary);
+}
